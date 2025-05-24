@@ -1,0 +1,407 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+  }
+  .section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .yellow-bg {
+    background-color: #F5E177;
+  }
+  h1, h2, h3 {
+    margin-bottom: 20px;
+  }
+  .button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+.section.yellow-bg h2 {
+  font-size: 35px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.section.yellow-bg p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #444;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  line-height: 1.5;
+}
+.hero-heading {
+    font-size: 35px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #222;
+    margin-bottom: 16px;
+  }
+  
+  .hero-subtext {
+    font-size: 18px;
+    font-weight: 400;
+    color: #444;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 32px;
+  }
+  .randevu-btn-yellow {
+    background-color: #f6e27f; /* Sarımsı pastel ton */
+    color: #000;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .randevu-btn-yellow:hover {
+    background-color: #F5E177; /* Hover'da biraz koyulaşsın */
+  }
+
+  .randevu-btn-gray {
+    background-color: #4d4d4d; /* Koyu gri */
+    color: white;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .randevu-btn-gray:hover {
+    background-color: #3c3c3c; /* Hover efekti */
+  }
+  
+  .oncesi-sonrasi {
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .comparison-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .comparison-pair {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .comparison-img {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  .comparison-note {
+    max-width: 700px;
+    font-size: 14px;
+    color: #333;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  .comparison-pair {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+  }
+  
+  .comparison-img {
+    width: 420px;
+    max-width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease;
+  }
+  
+  .comparison-img:hover {
+    transform: scale(1.02);
+  }
+  
+  .comparison-note-box {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px 25px;
+    margin: 20px auto 40px auto;
+    border-radius: 10px;
+    max-width: 700px;
+    color: #333;
+    font-size: 15px;
+    line-height: 1.6;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    text-align: center;
+  }
+  
+  .features, .pricing {
+    max-width: 1000px;
+    margin: auto;
+  }  
+  .pricing h2{
+    font-size: 35px;
+
+  }
+
+  .faq {
+    padding: 60px 20px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .sss-wrapper {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 40px;
+  }
+  
+  .sss-heading {
+    font-size: 28px;
+    font-weight: 700;
+    display: inline-block;
+    border-bottom: 2px solid #4d4d4d;
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+  }
+  
+  .faq p {
+    margin-bottom: 24px;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #222;
+  }
+  
+  .faq strong {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 4px;
+  }
+  
+  .faq button.randevu-btn-gray {
+    margin-top: 40px;
+  }
+  
+
+  .grid {
+    display: grid;
+    gap: 30px;
+  }
+  .columns-3 {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  .icon-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  .icon-block {
+    width: 180px;
+  }
+  .icon-block img {
+    width: 60px;
+  }
+  .faq p {
+    text-align: left;
+    max-width: 800px;
+    margin: 10px auto;
+  }
+  footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .section .paketler {
+    padding: 60px 20px;
+    text-align: left;
+  }
+  .paketler {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .paket-kart {
+    background-color: #f6e27f;
+    border: 1px solid #ddd;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 650px;
+  }
+  
+  
+  .paket-icerik {
+    flex-grow: 1;
+  }
+  
+  .paket-kart h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .paket-kart p {
+    margin-bottom: 10px;
+    font-size: 14px;
+
+  }
+  
+  .paket-kart .fiyat {
+  
+    font-size: 24px;
+
+  }
+  .paket-kart ul {
+    padding-left: 20px;
+    
+  }
+ 
+
+  .paket-kart li {
+    margin-bottom: 6px;
+  }
+  .fiyat {
+    font-size: 30px;
+    font-weight: 800;
+    color: #000;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+    
+  }
+  
+  .randevu-btn-gray {
+    width: 100%;
+max-width: 160px;
+    margin: 0 auto 20px auto;
+    display: block;
+  }
+  .randevu-btn-gray:hover {
+    background-color: #3c3c3c;
+  }
+  .tikli-liste {
+    list-style: none;
+    padding-left: 0;
+    margin: 20px 0;
+  }
+  
+  .tikli-liste li {
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .tikli-liste li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #4d4d4d;
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .progress-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  .progress-section h2 {
+    font-size: 35px;
+
+  }
+  
+  .steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    justify-items: center;
+    margin-top: 40px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .step {
+    flex: 1 1 200px;
+    max-width: 240px;
+    text-align: center;
+    
+  }
+
+  .step-icon {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 24px;
+    filter: invert(81%) sepia(86%) saturate(545%) hue-rotate(10deg) brightness(100%) contrast(95%);
+  }  
+  .step img {
+    min-width: 64px;
+    min-height: 64px;
+    margin-bottom: 20px;
+    filter: brightness(0) saturate(100%) invert(67%) sepia(90%) saturate(1000%) hue-rotate(15deg);
+  }
+  
+  .step h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .step p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #444;
+    max-width: 220px;
+    margin: auto;
+  }
+  .step:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  .cta-wrapper {
+    margin-top: 40px;
+  }
